@@ -62,6 +62,10 @@ So the system doesn’t only help you find news — it helps you **see how each 
 - **Level playing field** — Smaller or regional outlets can be part of the same index and the same reports. The public can discover and compare them alongside larger players.
 - **No dependency on a single algorithm or company** — The project is designed so that search and Q&A are over *your* (the project’s) database of news, not over the whole web. That reduces the risk of hidden manipulation or opaque ranking.
 - **Foundation for the future** — The knowledge-graph design (entities, provenance, verification) allows the system to evolve toward deeper transparency: who said what, whether it was true, and how outlets compare over time.
+- **Support for fact-checking and verification** — By keeping a structured record of who said what, where, and when, the system can help fact‑checkers and journalists quickly find original statements and later coverage to verify or debunk claims.
+- **Help against information overload** — Instead of reading dozens of articles, people can get a summarized answer with links to the most relevant stories, then decide what to read in full.
+- **Visibility for under-covered topics and regions** — Topic and entity tracking can highlight when some regions, communities, or issues receive very little coverage compared to their importance, helping journalists and the public notice gaps.
+- **Consistent, shared memory** — Everyone (citizens, media, politicians, researchers) looks at the same underlying record of published news, reducing confusion about “who said what when.”
 
 ---
 
@@ -84,6 +88,13 @@ So the system doesn’t only help you find news — it helps you **see how each 
 - **Incentive for accuracy and transparency** — When each outlet has a report (what they published, how they framed it, how their claims held up), there is a stronger incentive to be accurate and to distinguish clearly between fact and opinion.
 - **Comparable, visible performance** — Outlets can see how they compare on originality, framing, and verification. The same data is available to the public, so the relationship between media and audience becomes more transparent.
 - **Support for smaller and regional outlets** — They can be included in the same index and the same reporting framework, so the public can discover and trust them based on the same transparency criteria.
+
+### For political organizations and public figures
+
+- **Exact picture of current coverage** — See how many articles mention a party, leader, or organization today, this week, or over a chosen period, broken down by outlet and topic.
+- **Understanding tone and framing** — As narrative and tone analysis matures, see how coverage is leaning (supportive, neutral, critical) and which issues or phrases keep appearing around your name.
+- **Tracking shifts over time** — Watch how the volume, topics, and tone of coverage change before and after key events (elections, policy announcements, crises).
+- **Better, more responsible engagement** — Use evidence from published articles to respond to public concerns, correct misunderstandings with links to original stories, and understand where constructive criticism is coming from.
 
 ### For society in Nepal
 
@@ -144,6 +155,18 @@ So the system doesn’t only help you find news — it helps you **see how each 
 
 **What we’re building:** A verification loop that registers predictions, re-evaluates them later, and can feed into **publisher trust scores** and **house-level reports**. So the public can see which outlets and figures are more often verified over time.
 
+### 6. “There is too much information; I can’t keep up with every article.”
+
+**What we do:** The system can summarize what’s going on about a topic (e.g. budget, a specific leader, a disaster) and show you a short answer plus a manageable list of key sources, instead of forcing you to read everything.
+
+### 7. “I don’t know which outlet to trust more on a topic.”
+
+**What we’re building:** Over time, by combining provenance (who was first), verification results (which claims held up), and narrative analysis, the system can provide **evidence-based signals** about how different outlets behave on specific topics, helping the public make more informed trust decisions.
+
+### 8. “It’s hard to check a viral claim from social media against real news.”
+
+**What we do / are building:** You can turn a viral statement into a question and ask the system. It can search the indexed news to see whether reputable outlets reported the same claim, how they framed it, and whether later articles confirmed or contradicted it.
+
 ---
 
 ## Who is it for?
@@ -152,6 +175,7 @@ So the system doesn’t only help you find news — it helps you **see how each 
 |----------|----------------|
 | **General public in Nepal** | Ask questions in Nepali or English; get answers with source links; see reports per publisher; benefit from a more transparent and accountable news landscape. |
 | **Journalists & editors** | Semantic search, topic overviews, trend views; (future) story mapping, coverage gaps, duplicate detection; their outlet’s own house report. |
+| **Political organizations & public figures** | (Future) Daily and historical coverage stats (how many articles, by which outlets, on which topics), plus tone and framing insights to understand how they are being portrayed and how narratives are shifting over time. |
 | **Analysts & researchers** | (Future) Political intelligence, media bias comparison, entity graphs, election monitoring — all supporting public accountability. |
 
 ---
