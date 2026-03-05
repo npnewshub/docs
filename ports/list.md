@@ -7,7 +7,7 @@
 | **Engine** | — | — | No server. Script calls Core (8701) and LLMs/MPNet (8801). |
 | **LLMs (MPNet)** | **8801** | `MPNET_PORT` | Python embedding service. Core search and engine use it for embeddings. |
 | **Search** | **8901** | `PORT` | Go service: semantic search + Gemini. Frontend calls this for Q&A. |
-| **Web** | **3000** | Next.js default | Next.js app (`next dev`). Talks to Search (8901) for /ask. |
+| **Web** | **3000** | Next.js default | Next.js app (`next dev`). Must talk only to Search (8901) for /ask; do not point at Core. |
 
 ## Quick reference
 
